@@ -11,5 +11,4 @@ get '/' do
   list = crawler.crawl(URL)
 
   builder.build(list)
-  # "Hello World!"
 end

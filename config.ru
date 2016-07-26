@@ -1,2 +1,2 @@
-require 'runner'
+require './runner'
 run Sinatra::Application
